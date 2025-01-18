@@ -1,0 +1,13 @@
+[
+    {
+        "id": 1,
+        "name": "Product 1",
+        "smallimg": [
+            "allimg/hampers/h1 black.jpg",
+            "allimg/hampers/h1 brown.jpg"
+        ],
+        "image": "allimg/hampers/h2 1.jpg",
+        "description": "This is the description for Product 1.",
+        "price": "$100"
+    }
+]
