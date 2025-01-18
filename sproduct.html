@@ -58,7 +58,6 @@
   <section id="prodetails" class="section-p1">
     <div class="single-pro-image">
         <img id="product-image" src="" alt="Big image">
-        <img id="smallimg-1" src="" alt="Small Image 1">
         <div class="small-img-group">
             <div class="small-img-col">
               <img id="smallimg-1" src="" alt="Small Image 1">
@@ -71,6 +70,7 @@
     <div class="single-pro-details">
       <h4 id="product-name"></h4>
       <h2 id="product-category"></h2>
+      <span id="product-price"></span>
       <button class="normal" onclick="">Place order</button>
       <h4>Product Details</h4>
       <h2 id="product-discription"></h2>
@@ -219,8 +219,8 @@
   <!-----     Replacing images  -------->
   <!-- ===================== -->
 
-  <!-- <script>
-    document.getElementById('product-image').src = product.image;
+  <script>
+    var MainImg = document.getElementById("product-image");
     var smallimg1 = document.getElementById("smallimg-1");
     var smallimg2 = document.getElementById("smallimg-2");
   
@@ -230,7 +230,7 @@
     smallimg2.onclick = function () {
       MainImg.src = smallimg2.src;
     };
-  </script> -->
+  </script>
   <!-- ============================================================================================================ -->
   <script src="script.js"></script>
 </body>

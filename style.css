@@ -582,14 +582,26 @@ footer a:hover {
 
 .small-img-group {
   display: flex;
+  flex-direction: row;
   justify-content: space-between;
 }
 
 .small-img-col {
   flex-basis: 24%;
+  display: flex;
+  flex-direction: row;
   cursor: pointer;
 }
 
+.small-img-col img {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  margin: 5px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  cursor: pointer;
+}
 #prodetails .single-pro-details {
   width: 50%;
   padding-top: 30px;
@@ -623,17 +635,14 @@ footer a:hover {
 }
 
 #prodetails .single-pro-details span {
-  line-height: 25px;
+  line-height: 40px;
+  font-weight: 500;
 }
 
 #product-image {
   width: 80%;
 }
 
-#product-smallimg{
-  height: 100px;
-  width: 100px;
-}
 
 
 

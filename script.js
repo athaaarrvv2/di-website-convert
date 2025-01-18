@@ -25,10 +25,11 @@ document.addEventListener("DOMContentLoaded", function () {
           if (product) {
               document.getElementById('product-name').textContent = product.name;
               document.getElementById('product-image').src = product.image;
-              document.getElementById('product-description').textContent = product.description;
-              document.getElementById('product-price').textContent = product.price;
-              document.getElementById('smallimg-1').src = smallimg[0];
+              document.getElementById('smallimg-1').src = product.smallimg[0];
               document.getElementById('smallimg-2').src = product.smallimg[1];
+              document.getElementById('product-discription').textContent = product.description;
+              document.getElementById('product-price').textContent = product.price;
+              
           } else {
               document.getElementById('product-container').textContent = 'Product not found';
           }

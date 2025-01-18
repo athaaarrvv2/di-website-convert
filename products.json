@@ -1,13 +1,28 @@
 [
     {
         "id": 1,
-        "name": "Product 1",
-        "smallimg": [
-            "allimg/hampers/h1 black.jpg",
-            "allimg/hampers/h1 brown.jpg"
-        ],
+        "name": "Mini Hamper For Him",
+        "category": "Hampers",
         "image": "allimg/hampers/h2 1.jpg",
-        "description": "This is the description for Product 1.",
-        "price": "$100"
-    }
+        "smallimg": [
+          "allimg/hampers/h2 1.jpg",
+          "allimg/hampers/h2 2.jpg",
+          "allimg/hampers/h2 3.jpg"
+        ],
+        "description": "A mini hamper perfect for him.",
+        "price": "₹1100"
+      },
+      {
+        "id": 2,
+        "name": "Essential Hamper For Him",
+        "category": "Hampers",
+        "image": "allimg/hampers/h3 1.jpg",
+        "smallimg": [
+          "allimg/hampers/h3 1.jpg",
+          "allimg/hampers/h3 2.jpg",
+          "allimg/hampers/h3 3.jpg"
+        ],
+        "description": "An essential hamper for him.",
+        "price": 1100
+      }
 ]
