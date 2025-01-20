@@ -21,14 +21,68 @@
   <header>
     <a href="index.html" class="logo"><img src="img/logo.png" alt="" class="logo" /></a>
     <nav>
+     
+      
       <ul id="navbar">
         <li><a href="index.html">Home</a></li>
-        <li><a href="shop.html" class="active">Shop</a></li>
-        <li><a href="about.html">About</a></li>
-        <li><a href="contact.html">Contact</a></li>
-        <li id="lg-bag">
-          <a href="cart.html"><i class="fa fa-bag-shopping"></i></a>
-        </li>
+        <ul class="m-menu">
+          <!-- Main Menu Items -->
+          <li class="m-menu__item">
+            <a href="#" class="m-menu__link">All Products</a>
+          </li>
+          <li class="m-menu__item">
+            <a href="#" class="m-menu__link">Combo for Him</a>
+          </li>
+          <li class="m-menu__item">
+            <a href="#" class="m-menu__link">Combo for Her</a>
+          </li>
+          <li class="m-menu__item m-menu__item--has-submenu">
+            <a href="#" class="m-menu__link">Addons</a>
+            <!-- Submenu for Addons -->
+            <ul class="m-sub-menu">
+              <li class="m-sub-menu__item"><a href="#" class="m-menu__link">Addons</a></li>
+              <li class="m-sub-menu__item"><a href="#" class="m-menu__link">Wallets</a></li>
+              <li class="m-sub-menu__item"><a href="#" class="m-menu__link">Bottle</a></li>
+              <li class="m-sub-menu__item"><a href="#" class="m-menu__link">Travel</a></li>
+              <li class="m-sub-menu__item"><a href="#" class="m-menu__link">Sunglasses Cover</a></li>
+              <li class="m-sub-menu__item m-menu__item--has-submenu">
+                <a href="#" class="m-menu__link">Keychain</a>
+                <!-- Submenu for Keychain -->
+                <ul class="m-sub-menu">
+                  <li class="m-sub-menu__item"><a href="#" class="m-menu__link">Metal</a></li>
+                  <li class="m-sub-menu__item"><a href="#" class="m-menu__link">LED</a></li>
+                  <li class="m-sub-menu__item"><a href="#" class="m-menu__link">Leather</a></li>
+                </ul>
+              </li>
+              <li class="m-sub-menu__item"><a href="#" class="m-menu__link">Pen</a></li>
+              <li class="m-sub-menu__item m-menu__item--has-submenu">
+                <a href="#" class="m-menu__link">Mugs</a>
+                <!-- Submenu for Mugs -->
+                <ul class="m-sub-menu">
+                  <li class="m-sub-menu__item"><a href="#" class="m-menu__link">Ceramic</a></li>
+                  <li class="m-sub-menu__item"><a href="#" class="m-menu__link">Stainless Steel</a></li>
+                </ul>
+              </li>
+              <li class="m-sub-menu__item"><a href="#" class="m-menu__link">Chocolate</a></li>
+              <li class="m-sub-menu__item"><a href="#" class="m-menu__link">Perfume</a></li>
+              <li class="m-sub-menu__item"><a href="#" class="m-menu__link">Frame</a></li>
+              <li class="m-sub-menu__item"><a href="#" class="m-menu__link">Diary</a></li>
+              <li class="m-sub-menu__item"><a href="#" class="m-menu__link">Golden Rose</a></li>
+            </ul>
+          </li>
+          <li class="m-menu__item">
+            <a href="#" class="m-menu__link">Contact Us</a>
+          </li>
+          <li class="m-menu__item m-menu__item--has-submenu">
+            <a href="#" class="m-menu__link">Our Policy</a>
+            <!-- Submenu for Our Policy -->
+            <ul class="m-sub-menu">
+              <li class="m-sub-menu__item"><a href="#" class="m-menu__link">Shipping and Delivery</a></li>
+              <li class="m-sub-menu__item"><a href="#" class="m-menu__link">Refund and Cancellation</a></li>
+            </ul>
+          </li>
+        </ul>
+        
         <li><a href="login.html"><svg fill="#000000" version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="20" height="20" viewBox="0 0 575.616 575.616" xml:space="preserve">
           <g>
               <g>
@@ -56,15 +110,15 @@
   <!--   Prodetails Section    -->
   <!-- ===================== -->
   <section id="prodetails" class="section-p1">
+
+
     <div class="single-pro-image">
-        <img id="product-image" src="" alt="Big image">
-        <div class="small-img-group">
-            <div class="small-img-col">
-              <img id="smallimg-1" src="" alt="Small Image 1">
-              <img id="smallimg-2" src="" alt="Small Image 2">
-            </div>
-        </div>
+    <img id="product-image" src="" alt="Big image">
+    <div class="small-img-group" id="small-images-container">
+        <!-- Small images will be dynamically added here -->
     </div>
+</div>
+
 
 
     <div class="single-pro-details">

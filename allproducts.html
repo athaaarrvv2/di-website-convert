@@ -9,16 +9,14 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <!-- ===================== -->
-    <!-----     Header     ------>
-    <!-- ===================== -->
+      <!--    Header    -->
     <header>
         <a href="index.html" class="logo"><img src="img/logo.png" alt="" class="logo"></a>
         <nav>
             <ul id="navbar">
                 <ul class="menu">
-                    <li><a href="index.html" class="active">Home</a></li>
-                    <li class="menu-item"><a href="allproducts.html">All Products</a></li>
+                    <li class="menu-item"><a href="index.html">Home</a></li>
+                    <li class="menu-item"><a href="#" class="active">All Products</a></li>
                     <li class="menu-item"><a href="#">Combo for him </a></li>
                     <li class="menu-item"><a href="#">Combo for her</a></li>
                     <li class="menu-item">
@@ -67,30 +65,33 @@
         </div>
     </header>
 
- 
-    <!--    Hero Section   -->
-
-    <section id="hero">
-        <h4>Make your custom hamper!</h4>
-        <h2>Super value deals</h2>
-        <h1>On all products</h1>
-        <p></p>
-        <button>Customize Now</button>
-        <backgroung-img src="img/home.jpg"></backgroung-img>
+      <!--    Jump Section   -->
+    <section id="jump">
+        <div class="jump-container"> 
+            <a href="#hampers"><div class="jump-icon">
+                <img src="" alt="">
+                <h4>Hampers</h4>
+            </a>
+            </div>
+            <div class="jump-icon"><a href="#him">
+                <img src="" alt="">
+                <h4>For Him</h4></a>
+            </div>
+            <div class="jump-icon"><a href="#her">
+                <img src="" alt="">
+                <h4>For Her</h4></a>
+            </div>
+            <div class="jump-icon"><a href="#addons">
+                <img src="" alt="">
+                <h4>Addons</h4></a>
+            </div>
+        </div>
     </section>
 
-    <div class="container">
-        <video height="500px" width="100%" control="faulse" autoplay loop muted ><source type="video/mp4" src="" alt="casevid"></video>
-        <p align="center">Pick the perfect gift hamper that matches their unique style and personality!</p>
-        </div>
-        
-    </div>
     <!--    Products Section   -->
-
     <section id="product1" class="section-p1">
-        <h2>Top Gift Picks</h2>
-        <p class="heading">Celebrate with Our Latest Gift Hampers</p>
-       
+    <div id="hampers">
+        <h2>Hampers</h2>
         <div class="pro-container">
             <div class="pro" onclick="window.location.href='sproduct.html?id=101';">
                 <img src="allimg/hampers/h1 1.jpg" alt="">
@@ -177,7 +178,6 @@
                         <i class="fa-solid fa-star-half-stroke"></i>
                     </div>
                     <h4>₹1499</h4>
-
                 </div>
             </div>
             <div class="pro" onclick="window.location.href='sproduct.html?id=107';">
@@ -209,104 +209,16 @@
                 </div>
             </div>
         </div>
-        <button onclick="window.location.href='allproducts.html#hampers';">View All</button>
+    </div>
+    <div id="him">
+        <h2>For Him</h2>
+    </div>
+    <div id="her">
+        <h2>For Her</h2>
+    </div>
+    <div id="addons">
+        <h2>Addons</h2>
+    </div>
     </section>
-
-    <!--    Banner 2   -->
-
-    <section id="sm-banner" class="section-p1">
-        <div class="banner-box">
-            <div class="overlay"></div>
-            <div class="banner-content content">
-                <h4></h4>
-                <h2></h2>
-                <span></span>
-                <button class="white"></button>
-            </div>
-        </div>
-        <div class="banner-box">
-            <div class="overlay"></div>
-            <div class="banner-content content">
-                <h4></h4>
-                <h2></h2>
-                <span></span>
-                <button class="white"></button>
-            </div>
-        </div>
-    </section>
-    <section id="banner3" class="section-p1">
-        <div class="banner-box">
-            <div class="overlay"></div>
-            <div class="content">
-                <h2></h2>
-                <h3></h3>
-            </div>
-        </div>
-        <div class="banner-box">
-            <div class="overlay"></div>
-            <div class="content">
-                <h2></h2>
-                <h3></h3>
-            </div>
-        </div>
-        <div class="banner-box">
-            <div class="overlay"></div>
-            <div class="content">
-                <h2></h2>
-                <h3></h3>
-            </div>
-        </div>
-    </section>
-
-    <!--   Newsletter    -->
-
-    <section id="newsletter" class="section-p1 section-m1">
-        <div class="newstext">
-            <h4>Sign Up For Newsletters</h4>
-            <p>Get E-mail updates about our latest shop and <span>special offers.</span></p>
-        </div>
-        <div class="newsletterbutton">
-          <a class="login" href="login.html">
-            <button class="normal">Log In</button>
-          </a>
-          <a class="signup" href="login.html">
-            <button class="normal">Sign Up</button>
-          </a>
-        </div>
-    </section>
-
-    <!-- ===================== -->
-    <!-----    Footer    -------->
-    <!-- ===================== -->
-    <footer class="section-p1">
-        <div class="col">
-            <img src="img/logo.png" alt="" class="logo" />
-            <h4>Contact</h4>
-            <p><strong>Address:</strong> Bhopal, MP</p>
-            <p><strong>Phone:</strong> 0755 - 0123456</p>
-            <p><strong>Hours:</strong> 10:00am -11:00pm, mon - sat</p>
-        </div>
-        <div class="col">
-            <h4>About</h4>
-            <a href="policy.html">Delivery Information</a>
-            <a href="policy.html">Privacy Policy</a>
-            <a href="policy.html">Terms & Conditions</a>
-            <a href="contact.html">Contact Us</a>
-        </div>
-        <div class="col">
-            <h4>My Account</h4>
-            <a href="login.html">Log In</a>
-            <a href="login.html">Sign Up</a>
-            <a href="help.html">Help</a>
-        </div>
-        <div class="icon follow">
-            <h4>Follow US</h4>
-            <i class="fab fa-instagram"></i>
-            <i class="fab fa-pinterest-p"></i>
-            <i class="fab fa-whatsapp"></i>
-        </div>
-    </footer>
-    <!-- ============================================================================================================ -->
-    <script src="script.js"></script>
 </body>
 </html>
